@@ -1,0 +1,39 @@
+import { Task } from "../interface/Task";
+
+export const TASK_LIST: Task[] = [
+  {
+    id: 1,
+    title: 'Task 1',
+    description: 'Task Description 1',
+    day: 'May 5th',
+    reminder: true
+  },
+  {
+    id: 2,
+    title: 'Task 2',
+    description: 'Task Description 2',
+    day: 'May 5th',
+    reminder: true
+  },
+  {
+    id: 3,
+    title: 'Task 3',
+    description: 'Task Description 3',
+    day: 'May 5th',
+    reminder: false
+  },
+  {
+    id: 4,
+    title: 'Task 4',
+    description: 'Task Description 4',
+    day: 'May 5th',
+    reminder: true
+  },
+  {
+    id: 5,
+    title: 'Task 5',
+    description: 'Task Description 5',
+    day: 'May 5th',
+    reminder: false
+  }
+]
